@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Corpo da pagina-->
+    <header class="nav_links">
+        <img src="./LogoMain.png" alt="AluraFlix" class="logo">
+        <nav>
+            <button class="btn">HOME</button>
+            <button class="btn">NOVOS VÍDEOS</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bem-vinde</h1>
+            <p>Olá, gey !</p>
+            <form action="#" method="GET" class="search-form">
+                <input type="text" id="search" name="search" placeholder="Pesquisar vídeo..." class="search-input">
+                <button type="submit" class="search-btn">Buscar</button>
+            </form>
+        </div>
+    </section>
+
+<!-- Background em Vídeo -->
+        <video autoplay muted loop class="background-video">
+            <source src="backgroundTY.mp4" type="video/mp4">
+        </video>
+    </section>
+
+<!--Fileira de vídeos-->
+    <section class="videos-section">
+        <h2 class="section-title">Favoritos deste usuário</h2>
+        <div class="videos-gallery">
+            <img src="./GHOST.png" alt="TAEYONG" class="video-thumbnail">
+            <img src="./JAYUCT.jpeg" alt="JAEHYUN" class="video-thumbnail">
+            <img src="./P+W.png" alt="Fran Ocean" class="video-thumbnail">
+            <img src="./Hill.png" alt="Lauryn Hill" class="video-thumbnail">
+        </div>
+    </section>
+
+<!--Parte final da pagina-->
+    <section class="carousel">
+        <h2 class="carousel-title">Mais acessado</h2>
+        <p class="carousel-description">The Miseducation of Lauryn Hill (full album)</p>
+    </section>
+
+    <footer>
+        <p>2025 AluraFlix - GM</p>
+    </footer>
+
+</body>
+
+</html>
